@@ -16,7 +16,7 @@ jobs:
           node-version: 20
 
       - name: Cài đặt thư viện
-        run: npm ci
+        run: npm install
 
       - name: Tạo public/api/config.php từ secret (không lưu mật khẩu trong code)
         run: |
